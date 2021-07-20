@@ -1,4 +1,5 @@
 require('bootstrap');
+// require('jquery');
 
 $(document).ready(function() {
   
@@ -84,7 +85,7 @@ $(document).ready(function() {
               <h3>${slide.subtitle}</h3>
             </div>
             <div class=" mt-4 row align-items-center justify-content-center"> 
-              <a class="btn btn-primary" href="${slide.btnUrl}">
+              <a class="btn btn-primary" href="${slide.btnUrl}>
                   ${slide.btnText}
               </a>
             </div>
